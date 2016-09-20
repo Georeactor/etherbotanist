@@ -9,7 +9,7 @@ use iron::status;
 
 // Serves a string to the user.  Try accessing "/".
 fn hello(_: &mut Request) -> IronResult<Response> {
-    let resp = Response::with((status::Ok, "Hello world!"));
+    let resp = Response::with((status::Ok, "Hello world !!!"));
     Ok(resp)
 }
 
