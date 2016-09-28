@@ -1,8 +1,8 @@
 [package]
 
-name = "heroku-rust-cargo-hello"
+name = "etherbotanist"
 version = "1.0.0"
-authors = ["me@example.com"]
+authors = ["ndoiron@mapmeld.com"]
 
 [features]
 # This allows us to use `#[cfg(unstable)]` to conditionalize the use of
@@ -17,6 +17,10 @@ name = "hello"
 
 [dependencies]
 iron = "0.4.0"
+handlebars = "0.20.x"
+handlebars-iron = "0.18.x"
+mount = "0.2"
+staticfile = "0.3.0"
 
 [dependencies.router]
 git = "https://github.com/iron/router.git"
